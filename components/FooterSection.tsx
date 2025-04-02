@@ -1,37 +1,23 @@
-import { Logo } from "@/components/logo";
 import Link from "next/link";
+import Image from "next/image";
 
-const links = [
-  {
-    title: "My Projects",
-    href: "#projects",
-  },
-  {
-    title: "About Me",
-    href: "#about",
-  },
-];
+
 
 export default function FooterSection() {
   return (
     <footer className="pt-5 pb-5 md:pt-10 md:pb-10">
       <div className="mx-auto max-w-5xl px-6">
         <Link href="#home" aria-label="go home" className="mx-auto block size-fit">
-          {/* <Logo /> */}
-          <img src="assets/corner-left-up.svg" alt="" className="size-6 dark:invert"/>
+           <Image
+            src="assets/corner-left-up.svg"
+            className="size-6 dark:invert"
+            alt="back to top"
+            width={120}
+            height={92}
+          />
+
         </Link>
 
-        {/* <div className="my-8 flex flex-wrap justify-center gap-6 text-sm">
-          {links.map((link, index) => (
-            <Link
-              key={index}
-              href={link.href}
-              className="text-muted-foreground hover:text-primary block duration-150"
-            >
-              <span>{link.title}</span>
-            </Link>
-          ))}
-        </div> */}
         <div className="my-8 flex flex-wrap justify-center gap-6 text-sm">
           <Link
             href="https://twitter.com/iam_amanamabasi"

@@ -62,112 +62,112 @@ export default function HeroSection() {
                 <InfiniteSlider speedOnHover={20} speed={40} gap={112}>
 
                   <div className="flex">
-                    <img
+                    <Image
                       className="mx-auto h-8 w-fit dark:invert"
                       src="/assets/nexticon.svg"
                       alt="Next.js Logo"
                       height="20"
-                      width="auto"
+                      width="20"
                     />
                   </div>
 
                   <div className="flex">
-                    <img
+                    <Image
                       className="mx-auto h-8 w-fit"
                       src="/assets/react.svg"
                       alt="Reactjs Logo"
                       height="20"
-                      width="auto"
+                      width="20"
                     />
                   </div>
 
                   <div className="flex">
-                    <img
+                    <Image
                       className="mx-auto h-8 w-fit"
                       src="/assets/node.svg"
                       alt="Nodejs Logo"
                       height="20"
-                      width="auto"
+                      width="20"
                     />
                   </div>
 
                   <div className="flex">
-                    <img
+                    <Image
                       className="mx-auto h-8 w-fit"
                       src="/assets/typescript.svg"
                       alt="Typescript Logo"
                       height="20"
-                      width="auto"
+                      width="20"
                     />
                   </div>
 
                   <div className="flex">
-                    <img
+                    <Image
                       className="mx-auto h-8 w-fit"
                       src="/assets/tailwindcss.svg"
                       alt="tailwindcss Logo"
                       height="20"
-                      width="auto"
+                      width="20"
                     />
                   </div>
 
                   <div className="flex">
-                    <img
+                    <Image
                       className="mx-auto h-8 w-fit dark:invert"
                       src="/assets/github.svg"
                       alt="Github Logo"
                       height="20"
-                      width="auto"
+                      width="20"
                     />
                   </div>
 
                   <div className="flex">
-                    <img
+                    <Image
                       className="mx-auto h-8 w-fit"
                       src="/assets/figma.svg"
                       alt="Figma Logo"
                       height="20"
-                      width="auto"
+                      width="20"
                     />
                   </div>
 
                   <div className="flex">
-                    <img
+                    <Image
                       className="mx-auto h-8 w-fit"
                       src="/assets/materialui.svg"
                       alt="Material UI Logo"
                       height="20"
-                      width="auto"
+                      width="20"
                     />
                   </div>
 
                   <div className="flex">
-                    <img
+                    <Image
                       className="mx-auto h-8 w-fit"
                       src="/assets/shopify.svg"
                       alt="Shopify Logo"
                       height="20"
-                      width="auto"
+                      width="20"
                     />
                   </div>
 
                   <div className="flex">
-                    <img
+                    <Image
                       className="mx-auto h-8 w-fit"
                       src="/assets/stripe.svg"
                       alt="Stripe Logo"
                       height="20"
-                      width="auto"
+                      width="20"
                     />
                   </div>
 
                   <div className="flex">
-                    <img
+                    <Image
                       className="mx-auto h-8 w-fit dark:invert"
                       src="/assets/wordpress.svg"
                       alt="WordPress Logo"
                       height="20"
-                      width="auto"
+                      width="20"
                     />
                   </div>
               

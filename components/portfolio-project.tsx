@@ -27,10 +27,12 @@ export default function PortfolioProject() {
                         </ul>
                         <div className='flex pt-5 gap-5'>
                         <a href="#">
-                        <img src="assets/github.svg" alt="" className="size-6 dark:invert"/>
+
+                        <Image src="assets/github.svg" className="size-6 dark:invert" alt="github" width={120} height={92} />
+                        
                         </a>
                         <a href="#">
-                        <img src="assets/link.svg" alt="" className="size-6 dark:invert"/>
+                        <Image src="assets/link.svg" className="size-6 dark:invert" alt="link" width={120} height={92} />
                         </a>
                         </div>
                     </div>

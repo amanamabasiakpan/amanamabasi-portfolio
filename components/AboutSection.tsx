@@ -48,12 +48,12 @@ export default function AboutSection() {
                 <div className="mt-6 space-y-3">
                   <cite className="block font-medium">Amanamabasi, Front-end Developer</cite>
                   <a href="https://www.linkedin.com/in/amanamabasiakpan/">
-                  <img
-                    className="h-6 w-fit dark:invert"
+                  <Image
                     src="/assets/linkedin.png"
+                    className="h-6 w-fit dark:invert"
                     alt="Linkedin Logo"
-                    height="20"
-                    width="auto"
+                    width={80}
+                    height={20}
                   />
                   </a>
                 </div>
