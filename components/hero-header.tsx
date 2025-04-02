@@ -44,18 +44,21 @@ export const HeroHeader = () => {
                 className="bg-background/50 fixed z-20 w-full border-b backdrop-blur-3xl">
                 <div className="mx-auto max-w-6xl px-6 transition-all duration-300">
                     <div className="relative flex flex-wrap items-center justify-between gap-6 py-3 lg:gap-0 lg:py-4">
-                        <div className="flex w-full items-center justify-between gap-12 lg:w-auto">
+                        <div className="flex w-full items-center justify-between gap-6 lg:w-auto">
                             <Link href="/" aria-label="home" className="flex items-center space-x-2">
                                 <Logo />
                             </Link>
 
-                            <button
-                                ref={toggleRef}
-                                onClick={() => setMenuState(!menuState)}
-                                aria-label={menuState ? 'Close Menu' : 'Open Menu'}
-                                className="relative z-20 -m-2.5 -mr-4 block cursor-pointer p-2.5 lg:hidden">
-                                {menuState ? <X className="size-6" /> : <Menu className="size-6" />}
-                            </button>
+                            <div className="flex items-center gap-4 lg:hidden">
+                                <ModeToggle />
+                                <button
+                                    ref={toggleRef}
+                                    onClick={() => setMenuState(!menuState)}
+                                    aria-label={menuState ? 'Close Menu' : 'Open Menu'}
+                                    className="relative z-20 -m-2.5 -mr-4 block cursor-pointer p-2.5">
+                                    {menuState ? <X className="size-6" /> : <Menu className="size-6" />}
+                                </button>
+                            </div>
 
                             <div className="hidden lg:block">
                                 <ul className="flex gap-8 text-sm">
@@ -75,7 +78,7 @@ export const HeroHeader = () => {
                         {/* Mobile menu */}
                         <div
                             ref={menuRef}
-                            className={`bg-background ${
+                            className={`bg-card ${
                                 menuState ? 'block' : 'hidden'
                             } lg:flex mb-6 w-full flex-wrap items-center justify-end space-y-8 rounded-3xl border p-6 shadow-2xl shadow-zinc-300/20 md:flex-nowrap lg:m-0 lg:w-fit lg:gap-6 lg:space-y-0 lg:border-transparent lg:bg-transparent lg:p-0 lg:shadow-none dark:shadow-none dark:lg:bg-transparent text-center`}
                         >
@@ -100,8 +103,10 @@ export const HeroHeader = () => {
                                         <span>Contact Me</span>
                                     </Link>
                                 </Button>
+                                <div className="hidden lg:block">
+                                    <ModeToggle />
+                                </div>
                             </div>
-                            <ModeToggle />
                         </div>
                     </div>
                 </div>

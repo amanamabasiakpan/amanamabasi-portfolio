@@ -3,7 +3,6 @@ import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import { useState } from "react";
 
-
 export default function CallToAction() {
   
   const [copied, setCopied] = useState(false);
