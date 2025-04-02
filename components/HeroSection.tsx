@@ -2,7 +2,7 @@ import React from "react";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
-import { HeroHeader } from "@/components/hero8-header";
+import { HeroHeader } from "@/components/hero-header";
 import { InfiniteSlider } from "@/components/ui/infinite-slider";
 import { ProgressiveBlur } from "@/components/ui/progressive-blur";
 
@@ -16,7 +16,7 @@ export default function HeroSection() {
             <div className="relative mx-auto flex max-w-6xl flex-col px-6 lg:block">
               <div className="mx-auto max-w-xl text-center lg:ml-0 lg:w-1/2 lg:text-left">
                 <h1 className="mt-5 max-w-2xl text-balance text-5xl font-medium md:text-6xl lg:mt-16 xl:text-7xl">
-                  Need a developer for your next product or team?
+                  Hire a developer for your next product or team.
                 </h1>
                 <p className="mt-5 md:mt-10 max-w-2xl text-pretty text-lg">
                 I’m Amanamabasi Akpan. I build great products with clean interfaces that wow users, keep them engaged, all while being efficient, scalable, and fast.
@@ -24,7 +24,7 @@ export default function HeroSection() {
 
                 <div className="mt-5 md:mt-15 flex flex-col items-center justify-center gap-2 sm:flex-row lg:justify-start">
                   <Button asChild size="lg" className="px-5 text-base max-sm:w-80">
-                    <Link href="#link">
+                    <Link href="#contact">
                       <span className="text-nowrap">Contact Me</span>
                     </Link>
                   </Button>
@@ -35,7 +35,7 @@ export default function HeroSection() {
                     variant="ghost"
                     className="px-5 text-base max-sm:w-80"
                   >
-                    <Link href="#link">
+                    <Link href="#projects">
                       <span className="text-nowrap">See My Work</span>
                     </Link>
                   </Button>
@@ -85,7 +85,7 @@ export default function HeroSection() {
                     <img
                       className="mx-auto h-8 w-fit"
                       src="/assets/node.svg"
-                      alt="Reactjs Logo"
+                      alt="Nodejs Logo"
                       height="20"
                       width="auto"
                     />
@@ -95,7 +95,7 @@ export default function HeroSection() {
                     <img
                       className="mx-auto h-8 w-fit"
                       src="/assets/typescript.svg"
-                      alt="Reactjs Logo"
+                      alt="Typescript Logo"
                       height="20"
                       width="auto"
                     />
@@ -105,7 +105,7 @@ export default function HeroSection() {
                     <img
                       className="mx-auto h-8 w-fit"
                       src="/assets/tailwindcss.svg"
-                      alt="Reactjs Logo"
+                      alt="tailwindcss Logo"
                       height="20"
                       width="auto"
                     />
@@ -115,7 +115,7 @@ export default function HeroSection() {
                     <img
                       className="mx-auto h-8 w-fit dark:invert"
                       src="/assets/github.svg"
-                      alt="Reactjs Logo"
+                      alt="Github Logo"
                       height="20"
                       width="auto"
                     />
@@ -125,7 +125,7 @@ export default function HeroSection() {
                     <img
                       className="mx-auto h-8 w-fit"
                       src="/assets/figma.svg"
-                      alt="Reactjs Logo"
+                      alt="Figma Logo"
                       height="20"
                       width="auto"
                     />
@@ -135,7 +135,7 @@ export default function HeroSection() {
                     <img
                       className="mx-auto h-8 w-fit"
                       src="/assets/materialui.svg"
-                      alt="Reactjs Logo"
+                      alt="Material UI Logo"
                       height="20"
                       width="auto"
                     />
@@ -145,7 +145,7 @@ export default function HeroSection() {
                     <img
                       className="mx-auto h-8 w-fit"
                       src="/assets/shopify.svg"
-                      alt="Reactjs Logo"
+                      alt="Shopify Logo"
                       height="20"
                       width="auto"
                     />
@@ -155,7 +155,7 @@ export default function HeroSection() {
                     <img
                       className="mx-auto h-8 w-fit"
                       src="/assets/stripe.svg"
-                      alt="Reactjs Logo"
+                      alt="Stripe Logo"
                       height="20"
                       width="auto"
                     />
@@ -165,7 +165,7 @@ export default function HeroSection() {
                     <img
                       className="mx-auto h-8 w-fit dark:invert"
                       src="/assets/wordpress.svg"
-                      alt="Reactjs Logo"
+                      alt="WordPress Logo"
                       height="20"
                       width="auto"
                     />

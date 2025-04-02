@@ -1,23 +1,17 @@
-import HeroSection from "@/components/hero-section";
-import Features from "@/components/features-1";
-import ContentSection from "@/components/content-1";
-import CallToAction from "@/components/call-to-action";
-import FooterSection from "@/components/footer";
-import WallOfLoveSection from "@/components/testimonials";
-import ContactSection from "@/components/contact";
-import FeaturesSection from "@/components/features-5";
-import Title from "@/components/title";
+import HeroSection from "@/components/HeroSection";
+import AboutSection from "@/components/AboutSection";
+import CallToAction from "@/components/CallToAction";
+import FooterSection from "@/components/FooterSection";
+import TestimonialsSection from "@/components/TestimonialsSection";
+import ProjectsSection from "@/components/ProjectsSection";
 
 export default function Home() {
   return (
     <>
       <HeroSection />
-      {/* <Features /> */}
-      <Title />
-      <FeaturesSection />
-      <ContentSection />
-      <WallOfLoveSection />
-      {/* <ContactSection /> */}
+      <ProjectsSection />
+      <AboutSection />
+      <TestimonialsSection />
       <CallToAction />
       <FooterSection />
     </>

@@ -3,11 +3,11 @@ import Link from "next/link";
 
 export default function CallToAction() {
   return (
-    <section className="pb-10 pt-30 md:py-15">
+    <section className="pb-10 pt-30 md:py-15" id="contact">
       <div className="mx-auto max-w-5xl px-6">
         <div className="text-center">
           <h2 className="text-balance text-4xl font-semibold lg:text-5xl">
-            Need a developer for your next product or team?
+            Hire me for your next project
           </h2>
           <p className="mt-4">I build fast, clean, and reliable web solutions. If you need a developer who delivers, let’s work together.</p>
 

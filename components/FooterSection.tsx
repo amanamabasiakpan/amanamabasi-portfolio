@@ -4,15 +4,11 @@ import Link from "next/link";
 const links = [
   {
     title: "My Projects",
-    href: "#",
+    href: "#projects",
   },
   {
     title: "About Me",
-    href: "#",
-  },
-  {
-    title: "Contact Me",
-    href: "#",
+    href: "#about",
   },
 ];
 
@@ -20,12 +16,12 @@ export default function FooterSection() {
   return (
     <footer className="pt-5 pb-5 md:pt-10 md:pb-10">
       <div className="mx-auto max-w-5xl px-6">
-        <Link href="/" aria-label="go home" className="mx-auto block size-fit">
+        <Link href="#home" aria-label="go home" className="mx-auto block size-fit">
           {/* <Logo /> */}
           <img src="assets/corner-left-up.svg" alt="" className="size-6 dark:invert"/>
         </Link>
 
-        <div className="my-8 flex flex-wrap justify-center gap-6 text-sm">
+        {/* <div className="my-8 flex flex-wrap justify-center gap-6 text-sm">
           {links.map((link, index) => (
             <Link
               key={index}
@@ -35,10 +31,10 @@ export default function FooterSection() {
               <span>{link.title}</span>
             </Link>
           ))}
-        </div>
+        </div> */}
         <div className="my-8 flex flex-wrap justify-center gap-6 text-sm">
           <Link
-            href="#"
+            href="https://twitter.com/iam_amanamabasi"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="X/Twitter"
@@ -58,7 +54,7 @@ export default function FooterSection() {
             </svg>
           </Link>
           <Link
-            href="#"
+            href="https://www.linkedin.com/in/amanamabasiakpan/"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="LinkedIn"
@@ -78,10 +74,10 @@ export default function FooterSection() {
             </svg>
           </Link>
           <Link
-            href="#"
+            href="https://github.com/amanamabasiakpan"
             target="_blank"
             rel="noopener noreferrer"
-            aria-label="WhatsApp"
+            aria-label="Github"
             className="text-muted-foreground hover:text-primary block"
           >
             <svg

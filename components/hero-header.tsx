@@ -7,15 +7,15 @@ import React from 'react'
 import { ModeToggle } from './mode-toggle'
 
 const menuItems = [
-    { name: 'My Projects', href: '#link' },
-    { name: 'About Me', href: '#link' },
+    { name: 'My Projects', href: '#projects' },
+    { name: 'About Me', href: '#about' },
 
 ]
 
 export const HeroHeader = () => {
     const [menuState, setMenuState] = React.useState(false)
     return (
-        <header>
+        <header id="home">
             <nav
                 data-state={menuState && 'active'}
                 className="bg-background/50 fixed z-20 w-full border-b backdrop-blur-3xl">
@@ -78,7 +78,7 @@ export const HeroHeader = () => {
                                 <Button
                                     asChild
                                     size="sm">
-                                    <Link href="#">
+                                    <Link href="#contact">
                                         <span>Contact Me</span>
                                     </Link>
                                 </Button>
