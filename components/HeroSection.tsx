@@ -12,13 +12,13 @@ export default function HeroSection() {
       <HeroHeader />
       <main className="overflow-x-hidden">
         <section>
-          <div className="pb-24 pt-5 md:pb-32 lg:pb-56 lg:pt-44">
+          <div className="pb-24 pt-1 md:pb-32 lg:pb-56 lg:pt-44">
             <div className="relative mx-auto flex max-w-6xl flex-col px-6 lg:block">
               <div className="mx-auto max-w-xl text-center lg:ml-0 lg:w-1/2 lg:text-left">
-                <h1 className="mt-5 max-w-2xl text-balance text-5xl font-medium md:text-6xl lg:mt-16 xl:text-7xl">
+                <h1 className="mt-1 max-w-3xl text-balance text-4xl font-medium md:text-6xl lg:mt-16 xl:text-7xl">
                   Hire a developer for your next product or team.
                 </h1>
-                <p className="mt-5 md:mt-10 max-w-2xl text-pretty text-lg">
+                <p className="mt-5 md:mt-10 max-w-2xl text-pretty text-base md:text-lg">
                 I’m Amanamabasi Akpan. I build great products with clean interfaces that wow users, keep them engaged, all while being efficient, scalable, and fast.
                 </p>
 
@@ -41,12 +41,15 @@ export default function HeroSection() {
                   </Button>
                 </div>
               </div>
+
               <Image
-                className="-z-10 order-first ml-auto h-106 w-full object-cover object-top sm:h-96 lg:absolute lg:inset-0 lg:-right-20 lg:-top-56 lg:order-last lg:h-max lg:w-2/3 lg:object-contain dark:mix-blend-lighten dark:invert-0"
-                src="/hero.webp" 
+                className="-z-10  mx-auto order-first
+ h-90 w-80 object-cover lg:absolute lg:inset-0 lg:-right-150 lg:-top-56 lg:order-last lg:h-max lg:w-2/3 lg:object-contain dark:mix-blend-lighten dark:invert-0
+"
+                src="/assets/hero.webp" 
                 alt="hero"
-                height="1000"
-                width="1000"
+                height="2000"
+                width="2000"
               />
             </div>
 

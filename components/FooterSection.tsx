@@ -2,7 +2,6 @@ import Link from "next/link";
 import Image from "next/image";
 
 
-
 export default function FooterSection() {
   return (
     <footer className="pt-5 pb-5 md:pt-10 md:pb-10">
