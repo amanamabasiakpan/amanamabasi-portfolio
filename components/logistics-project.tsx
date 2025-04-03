@@ -1,4 +1,4 @@
-import { Activity, Mail, Zap } from 'lucide-react'
+import { Zap } from 'lucide-react'
 import Image from 'next/image'
 
 export default function LogisticsProject() {
@@ -9,27 +9,21 @@ export default function LogisticsProject() {
                     <div className="lg:col-span-2 px-6">
                         <div className="md:pr-6 lg:pr-0">
                             <h2 className="text-2xl font-semibold lg:text-3xl">Logistics Tracking App</h2>
-                            <p className="mt-6">Orrupti aut temporibus assumenda atque ab, accusamus sit, molestiae veniam laboriosam pariatur.</p>
+                            <p className="mt-6">A PHP (Laravel) & WordPress-powered system for real-time shipment tracking, role-based access, and automated updates. Secure, scalable, and user-friendly.
+
+</p>
                         </div>
                         <ul className="mt-8 divide-y border-y *:flex *:items-center *:gap-3 *:py-3">
                             <li>
-                                <Mail className="size-5" />
-                                Email and web support
-                            </li>
-                            <li>
                                 <Zap className="size-5" />
-                                Fast response time
-                            </li>
-                            <li>
-                                <Activity className="size-5" />
-                                Menitoring and analytics
+                                PHP (Laravel), WordPress, MySQL, Bootstrap.
                             </li>
                         </ul>
                         <div className='flex pt-5 gap-5'>
                         <a href="#">
                         <Image src="assets/github.svg" className="size-6 dark:invert" alt="github" width={120} height={92} />
                         </a>
-                        <a href="#">
+                        <a href="http://app.tahsimlogistics.com/">
                         <Image src="assets/link.svg" className="size-6 dark:invert" alt="link" width={120} height={92} />
                         </a>
                         </div>
