@@ -1,4 +1,4 @@
-import { Activity, Mail, Zap } from 'lucide-react'
+import { Zap } from 'lucide-react'
 import Image from 'next/image'
 
 export default function MovieScanner() {
