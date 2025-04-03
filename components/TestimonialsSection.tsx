@@ -10,33 +10,33 @@ type Testimonial = {
 
 const testimonials: Testimonial[] = [
     {
-        name: 'Jonathan Yombo',
+        name: 'Ubong H.',
         role: 'Software Engineer',
         image: 'https://randomuser.me/api/portraits/men/1.jpg',
         quote: 'I’ve known Amanamabasi for years and watched him grow into an incredible developer. He’s not just good at what he does, he actually cares about making things work for people. If you work with him, you’re in great hands.',
     },
     {
-        name: 'Yves Kalume',
-        role: 'GDE - Android',
+        name: 'Bolaji O.',
+        role: 'Client',
         image: 'https://randomuser.me/api/portraits/men/6.jpg',
         quote: 'Working with Amanamabasi was an absolute win. I needed a website that truly reflected my brand, and he nailed it. Super easy to work with, always open to feedback, and the final result was better than I imagined.',
     },
     {
-        name: 'Roland Tubonge',
-        role: 'Software Engineer',
+        name: 'Hammed O.',
+        role: 'Client',
         image: 'https://randomuser.me/api/portraits/men/13.jpg',
         quote: 'Amanamabasi built a logistics tracking system for my business, streamlining my process and efficiency—not to mention the fast and modern interfaces. Highly recommend! ',
     },
     {
-        name: 'Yucel Faruksahan',
-        role: 'Tailkits Creator',
+        name: 'Segun G.',
+        role: 'Entreprenure',
         image: 'https://randomuser.me/api/portraits/men/7.jpg',
         quote: 'I was in a rush to launch my web app, and Amanamabasi delivered without cutting corners. Clean code, great design, and he even threw in some extra features that made everything run smoother. If you need a dev, this is your guy.',
     },
 
     {
-        name: 'Khatab Wedaa',
-        role: 'MerakiUI Creator',
+        name: 'Richard A.',
+        role: 'Creator',
         image: 'https://randomuser.me/api/portraits/men/10.jpg',
         quote: "Amanamabasi is that friend who always figures things out. Tech problems, business ideas, or just life advice, he’s the person you want in your corner. He sees solutions before anyone else does.",
     },
