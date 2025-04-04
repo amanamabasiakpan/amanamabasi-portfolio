@@ -24,7 +24,7 @@ export default function PortfolioProject() {
                         <Image src="assets/github.svg" className="size-6 dark:invert" alt="github" width={120} height={92} />
                         
                         </a>
-                        <a href="amanamabasi-portfolio.vercel.app" target="_blank">
+                        <a href="https://amanamabasi-portfolio.vercel.app" target="_blank">
                         <Image src="assets/link.svg" className="size-6 dark:invert" alt="link" width={120} height={92} />
                         </a>
                         </div>
