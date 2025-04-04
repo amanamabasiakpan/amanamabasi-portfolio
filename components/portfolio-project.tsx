@@ -19,12 +19,12 @@ export default function PortfolioProject() {
                            
                         </ul>
                         <div className='flex pt-5 gap-5'>
-                        <a href="https://github.com/amanamabasiakpan/amanamabasi-portfolio">
+                        <a href="https://github.com/amanamabasiakpan/amanamabasi-portfolio" target="_blank">
 
                         <Image src="assets/github.svg" className="size-6 dark:invert" alt="github" width={120} height={92} />
                         
                         </a>
-                        <a href="amanamabasi-portfolio.vercel.app">
+                        <a href="amanamabasi-portfolio.vercel.app" target="_blank">
                         <Image src="assets/link.svg" className="size-6 dark:invert" alt="link" width={120} height={92} />
                         </a>
                         </div>

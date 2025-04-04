@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 export default function IphoneProject() {
     return (
-        <section className="py-15 md:py-32 ">
+        <section className="py-10 md:py-10">
             <div className="mx-auto max-w-6xl px-6">
                 <div className="grid items-center gap-12 md:grid-cols-2 md:gap-12 lg:grid-cols-5 lg:gap-24">
                     <div className="lg:col-span-2 px-6">
@@ -18,10 +18,10 @@ export default function IphoneProject() {
                             </li>
                         </ul>
                         <div className='flex pt-5 gap-5'>
-                        <a href="https://github.com/amanamabasiakpan/apple-iphone">
+                        <a href="https://github.com/amanamabasiakpan/apple-iphone" target="_blank">
                         <Image src="assets/github.svg" className="size-6 dark:invert" alt="github" width={120} height={92} />
                         </a>
-                        <a href="https://apple-iphone-roan-one.vercel.app/">
+                        <a href="https://apple-iphone-roan-one.vercel.app/" target="_blank">
                         <Image src="assets/link.svg" className="size-6 dark:invert" alt="link" width={120} height={92} />
                         </a>
                         </div>

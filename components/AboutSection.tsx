@@ -47,7 +47,7 @@ export default function AboutSection() {
 
                 <div className="mt-6 space-y-3">
                   <cite className="block font-medium">Amanamabasi, Front-end Developer</cite>
-                  <a href="https://www.linkedin.com/in/amanamabasiakpan/">
+                  <a href="https://www.linkedin.com/in/amanamabasiakpan/" target="_blank">
                   <Image
                     src="/assets/linkedin.png"
                     className="h-6 w-fit dark:invert"

@@ -8,10 +8,11 @@ import MovieScanner from "./movie-scanner";
 const ProjectsSection = () => {
   return <div id="projects" className="py-16 md:py-32">
     <Title />
-    <LogisticsProject />
-    <PortfolioProject />
-    <IphoneProject />
     <MovieScanner />
+    <IphoneProject />
+    <PortfolioProject />
+    <LogisticsProject />
+
   </div>;
 };
 
