@@ -20,10 +20,10 @@ export default function LogisticsProject() {
                             </li>
                         </ul>
                         <div className='flex pt-5 gap-5'>
-                        <a href="#">
+                        <a href="http://www.tahsimlogistics.com/">
                         <Image src="assets/github.svg" className="size-6 dark:invert" alt="github" width={120} height={92} />
                         </a>
-                        <a href="http://app.tahsimlogistics.com/" target="_blank">
+                        <a href="http://www.tahsimlogistics.com/" target="_blank">
                         <Image src="assets/link.svg" className="size-6 dark:invert" alt="link" width={120} height={92} />
                         </a>
                         </div>
