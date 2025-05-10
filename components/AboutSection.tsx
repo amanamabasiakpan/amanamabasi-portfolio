@@ -31,12 +31,12 @@ export default function AboutSection() {
             <p className="text-muted-foreground">
             I’m Amanamabasi Akpan,{" "}
               <span className="text-accent-foreground font-bold">
-              a JavaScript, TypeScript, React, and Node.js developer with a product-focused mindset.
+              a JavaScript, TypeScript, React, Vue and Node.js developer with a product-focused mindset.
               </span>{" "}
             </p>
 
             <p className="text-muted-foreground">
-              With 2+ years in front-end development and 5 years in marketing, I build fast, scalable, and user-driven applications for startups and businesses
+              With 2+ years in Full-Stack development and 5 years in marketing, I build fast, scalable, and user-driven applications for startups and businesses
             </p>
 
             <div className="pt-6">
@@ -46,7 +46,7 @@ export default function AboutSection() {
                 </p>
 
                 <div className="mt-6 space-y-3">
-                  <cite className="block font-medium">Amanamabasi, Front-end Developer</cite>
+                  <cite className="block font-medium">Amanamabasi, Full-Stack Developer</cite>
                   <a href="https://www.linkedin.com/in/amanamabasiakpan/" target="_blank">
                   <Image
                     src="/assets/linkedin.png"

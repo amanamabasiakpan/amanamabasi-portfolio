@@ -16,10 +16,10 @@ export default function HeroSection() {
             <div className="relative mx-auto flex max-w-6xl flex-col px-6 lg:block">
               <div className="mx-auto max-w-xl text-center lg:ml-0 lg:w-1/2 lg:text-left">
                 <h1 className="mt-1 max-w-3xl text-balance text-4xl font-medium md:text-6xl lg:mt-16 xl:text-7xl">
-                  Hire a developer for your next product or team.
+                  Hire a Full-Stack Developer for your next Project.
                 </h1>
                 <p className="mt-5 md:mt-10 max-w-2xl text-pretty text-base md:text-lg">
-                I’m Amanamabasi Akpan. I build great products with clean interfaces that wow users, keep them engaged, all while being efficient, scalable, and fast.
+                I’m Amanamabasi Akpan a Full-Stack Developer. I build great products with clean interfaces that wow users, keep them engaged, all while being secure, scalable, and fast.
                 </p>
 
                 <div className="mt-5 md:mt-15 flex flex-col items-center justify-center gap-2 sm:flex-row lg:justify-start">
