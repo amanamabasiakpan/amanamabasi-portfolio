@@ -25,6 +25,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
+      <head>
+        <meta name="trustpilot-one-time-domain-verification-id" content="6c9c8acc-4289-4410-8307-410ebdff0ec2" />
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
